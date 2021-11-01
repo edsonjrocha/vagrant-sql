@@ -1,9 +1,9 @@
 CREATE USER IF NOT EXISTS 'vagrant'@'%' IDENTIFIED BY 'vagrant';
 
-CREATE DATABASE IF NOT EXISTS teste;
+CREATE DATABASE IF NOT EXISTS atividade;
 
-ALTER DATABASE teste
+ALTER DATABASE atividade
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-GRANT ALL PRIVILEGES ON teste.* TO 'vagrant'@'%' IDENTIFIED BY 'vagrant';
+GRANT ALL PRIVILEGES ON atividade.* TO 'vagrant'@'%' IDENTIFIED BY 'vagrant';
